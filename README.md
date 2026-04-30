@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Análisis de Herramientas de Auditoria Web</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+}
+
+nav {
+    background: #1e2a38;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+header {
+    background: linear-gradient(90deg, #1e2a38, #00bcd4);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+section {
+    padding: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.detalle {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1e2a38;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Análisis de Herramientas de Auditoria Web</h1>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#detalle1">Auditoría Web</a>
+    <a href="#detalle2">Beneficios</a>
+    <a href="#detalle3">Lighthouse</a>
+    <a href="#detalle4">PageSpeed Insights</a>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio">
+<div class="container">
+
+    <a href="#detalle1" class="card">
+        <h2>¿Qué es una auditoría web?</h2>
+        <p>Evaluación completa de un sitio para detectar errores y optimizar su rendimiento.</p>
+    </a>
+
+    <a href="#detalle2" class="card">
+        <h2>Beneficios</h2>
+        <p>Mejora SEO, experiencia de usuario y resultados del sitio.</p>
+    </a>
+
+    <a href="#detalle3" class="card">
+        <h2>Google Lighthouse</h2>
+        <p>Auditoría técnica completa del rendimiento y calidad web.</p>
+    </a>
+
+    <a href="#detalle4" class="card">
+        <h2>PageSpeed Insights</h2>
+        <p>Análisis de velocidad basado en datos reales y simulados.</p>
+    </a>
+
+</div>
+</section>
+
+<!-- DETALLE 1 -->
+<section id="detalle1">
+<div class="detalle">
+    <h2>¿Qué es una auditoría web?</h2>
+    <p>
+    Una auditoría web consiste en analizar de forma completa un sitio para detectar fallas,
+    errores o aspectos que se pueden mejorar. Se evalúan elementos como la velocidad,
+    el diseño, la experiencia del usuario, el posicionamiento en buscadores y la seguridad.
+    </p>
+    <p>
+    El propósito es optimizar el sitio para que funcione mejor, sea más atractivo y brinde
+    una experiencia más eficiente a los usuarios.
+    </p>
+</div>
+</section>
+
+<!-- DETALLE 2 -->
+<section id="detalle2">
+<div class="detalle">
+    <h2>Beneficios de una auditoría web</h2>
+
+    <p><b>1. Mejor posicionamiento</b><br>
+    Permite mejorar la visibilidad en buscadores como Google.</p>
+
+    <p><b>2. Mejor experiencia de usuario</b><br>
+    Facilita la navegación y hace el sitio más intuitivo.</p>
+
+    <p><b>3. Imagen profesional</b><br>
+    Refuerza la confianza y credibilidad de la marca.</p>
+
+    <p><b>4. Más conversiones</b><br>
+    Incrementa la probabilidad de ventas o registros.</p>
+
+</div>
+</section>
+
+<!-- DETALLE 3 -->
+<section id="detalle3">
+<div class="detalle">
+    <h2>Google Lighthouse</h2>
+
+    <p>
+    Lighthouse es una herramienta de Google que permite evaluar un sitio web de forma técnica.
+    Analiza aspectos como rendimiento, accesibilidad, buenas prácticas y SEO.
+    </p>
+
+    <h3>Ventajas:</h3>
+    <p>✔ Permite un análisis completo del sitio web.</p>
+    <p>✔ No depende de datos reales de usuarios.</p>
+    <p>✔ Se puede configurar según las necesidades del desarrollador.</p>
+
+    <h3>Limitaciones:</h3>
+    <p>✖ Los resultados son simulados, no siempre reflejan la experiencia real.</p>
+    <p>✖ Algunas métricas requieren conocimientos técnicos.</p>
+    <p>✖ Puede ser complejo para usuarios principiantes.</p>
+
+    <p>
+    En resumen, es una herramienta muy potente para detectar problemas,
+    pero se recomienda complementarla con datos reales para un análisis más preciso.
+    </p>
+
+</div>
+</section>
+
+<!-- DETALLE 4 -->
+<section id="detalle4">
+<div class="detalle">
+    <h2>Google PageSpeed Insights</h2>
+
+    <p>
+    PageSpeed Insights es una herramienta gratuita de Google que analiza la velocidad
+    y el rendimiento de una página web. Su objetivo es ayudar a mejorar los tiempos
+    de carga y la experiencia del usuario mediante recomendaciones claras.
+    </p>
+
+    <h3>¿Cómo obtiene los datos?</h3>
+    <p><b>Datos reales:</b> provienen de usuarios reales mediante el informe CrUX.</p>
+    <p><b>Datos simulados:</b> se generan en laboratorio usando Lighthouse.</p>
+
+    <h3>Ventajas:</h3>
+    <p>✔ Usa datos reales de usuarios.</p>
+    <p>✔ Brinda recomendaciones prácticas.</p>
+    <p>✔ Es fácil de usar.</p>
+    <p>✔ Permite comparar móvil y escritorio.</p>
+
+    <h3>Desventajas:</h3>
+    <p>✖ No analiza tan profundamente como Lighthouse.</p>
+    <p>✖ Algunas recomendaciones no aplican a todos los sitios.</p>
+    <p>✖ Puede no mostrar datos si el sitio tiene poco tráfico.</p>
+
+    <p>
+    En conclusión, PageSpeed Insights permite ver el rendimiento real del sitio,
+    mientras que Lighthouse ayuda a analizarlo a nivel técnico.
+    Lo ideal es usar ambas herramientas juntas.
+    </p>
+
+</div>
+</section>
+<!-- CASO DE ÉXITO -->
+<section id="detalle5">
+<div class="detalle">
+    <h2>Caso de éxito: Rakuten 24</h2>
+
+    <p>
+    Rakuten 24 es una empresa japonesa de comercio electrónico que logró mejorar
+    significativamente el rendimiento de su sitio web mediante el uso de herramientas
+    como Google Lighthouse y técnicas de optimización web.
+    </p>
+
+    <p>
+    Esta plataforma ofrece una gran variedad de productos de uso cotidiano, incluyendo
+    alimentos, medicamentos, artículos de cuidado personal y utensilios de cocina.
+    El principal objetivo del equipo fue aumentar la retención de usuarios móviles
+    y mejorar la interacción dentro del sitio.
+    </p>
+
+    <p>
+    Como parte de su estrategia, implementaron mejoras en su aplicación web, permitiendo
+    que sea instalable en dispositivos móviles. Gracias a esto, lograron un incremento
+    notable en la participación de los usuarios.
+    </p>
+
+    <h3>Resultados obtenidos:</h3>
+
+    <p>✔ Incremento del 450% en la retención de usuarios en solo un mes.</p>
+
+    <p>✔ Aumento del 310% en la frecuencia de visitas por usuario.</p>
+
+    <p>✔ Crecimiento del 150% en las ventas por cliente.</p>
+
+    <p>✔ Mejora del 200% en la tasa de conversiones.</p>
+
+    <p>
+    En conclusión, este caso demuestra que la optimización web, apoyada en herramientas
+    como Lighthouse, puede generar mejoras importantes tanto en el rendimiento del sitio
+    como en los resultados del negocio.
+    </p>
+
+</div>
+</section>
+<!-- VIDEO -->
+<section id="video">
+<div class="detalle">
+    <h2>Video explicativo</h2>
+
+    <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/VyaHwvPWuZU"
+        title="Video explicativo"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+
+</div>
+</section>
+<!-- FUENTES -->
+<section id="fuentes">
+<div class="detalle">
+    <h2>Fuentes de información</h2>
+
+    <p>
+    🔗 <a href="https://help-center.prestashop.com/hc/es/articles/18718755089682--Utilice-Lighthouse-para-realizar-una-auditoría-automatizada-de-su-sitio-web" target="_blank">
+    Guía de uso de Lighthouse (PrestaShop)
+    </a>
+    </p>
+
+    <p>
+    🔗 <a href="https://profile.es/blog/google-lighthouse-guia-completa/" target="_blank">
+    Guía completa de Google Lighthouse
+    </a>
+    </p>
+
+    <p>
+    🔗 <a href="https://developer.chrome.com/blog/lighthouse-load-performance?hl=es-419" target="_blank">
+    Rendimiento con Lighthouse (Chrome Developers)
+    </a>
+    </p>
+
+    <p>
+    🔗 <a href="https://web.dev/case-studies/rakuten-24?hl=es-419" target="_blank">
+    Caso de estudio: Rakuten 24
+    </a>
+    </p>
+
+    <p>
+    🔗 <a href="https://bimsoluciones.com/pagespeed-insights-lighthouse-rendimiento-web/" target="_blank">
+    Comparación PageSpeed Insights y Lighthouse
+    </a>
+    </p>
+
+</div>
+</section>
+</body>
+</html>
